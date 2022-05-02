@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Education Web Template Design By Bootstrap</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Retrina Group" />
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" media="all" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#Menu-Scroll">
+	
+	<!-- Start Header Markup--->
+	<section class="top-header text-white py-1" id="home">
+		<div class="container">
+			<!---- Top Bar ---->
+			<div class="row d-flex justify-content-between text-center text-md-start">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-md-7 email">
+							<p><i class="fa-solid fa-envelope"></i> shopnil.anik.25@gmail.com</p>
+						</div>
+						<div class="col-md-5 phone">
+							<p class="text-center text-md-end text-lg-start"><i class="fa-solid fa-phone"></i> +8801618+332933</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="top-social text-center text-md-start text-lg-end">
+								<ul>
+									<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="top-user-button text-center text-md-end">
+								<ul>
+									<li><a href="#">Login</a></li>
+									<li> / </li>
+									<li><a href="#">Register</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Header Markup --->
+	
+	<!-- Start Navbar Markup --->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="Menu-Scroll">
+			<div class="container">
+				<a href="#home" class="navbar-brand"><img src="img/site-logo.jpg" alt="home" /></a>
+				<button class="navbar-toggler" data-bs-target="#navBarID" data-bs-toggle="collapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navBarID" >
+					<ul class="navbar-nav ms-auto me-3 text-center">
+						<li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#single-course">Web Design</a></li>
+								<li><a class="dropdown-item" href="#single-course">Web Development</a></li>
+								<li><a class="dropdown-item" href="#single-course">Seo Markting</a></li>
+								<li><a class="dropdown-item" href="#single-course">Grapich Design</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#gallery" class="nav-link">Galleries</a></li>
+						<li class="nav-item"><a href="#event" class="nav-link">Events</a></li>
+						<li class="nav-item"><a href="#client" class="nav-link">Clients</a></li>
+						<li class="nav-item"><a href="#blog" class="nav-link">Blogs</a></li>
+						<li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+					</ul>
+					<form action="#" method="POST" class="d-flex">
+						<input type="search" placeholder="What you want to search"class="form-control me-1" />
+						<button type="submit" class="btn btn-success">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	<!-- End Navbar Markup --->
+	
+	
+	<!-- Start Carousel Markup--->
+	<section class="carousel slide carousel-fade" id="CarouselID" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/carousel-1.jpg" alt="carousel-silder-1" class="w-100 d-block" />
+				<div class="carousel-caption">
+					<h2>Web Design</h2>
+					<p>This slider is the course of web design</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/carousel-2.jpg" alt="carousel-silder-2" class="w-100 d-block" />
+				<div class="carousel-caption">
+					<h2>Web Development</h2>
+					<p>This slider is the course of web development</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/carousel-3.jpg" alt="carousel-silder-3" class="w-100 d-block" />
+				<div class="carousel-caption">
+					<h2>Seo Markteing</h2>
+					<p>This slider is the course of seo marketing</p>
+				</div>
+			</div>
+		</div>
+		<!--- Slider Prev & Next Button ---->
+		<button class="carousel-control-prev" data-bs-target="#CarouselID" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</button>
+		<button class="carousel-control-next" data-bs-target="#CarouselID" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</button>
+		<!--- Slider Controls ---->
+		<div class="carousel-indicators">
+			<button class="active" data-bs-target="#CarouselID" data-bs-slide-to="0"></button>
+			<button data-bs-target="#CarouselID" data-bs-slide-to="1"></button>
+			<button data-bs-target="#CarouselID" data-bs-slide-to="2"></button>
+		</div>
+	</section>
+	<!-- End Carousel Markup --->
+	
+	<!-- Start Courses Markup--->
+	<section class="course py-5" id="single-course">
+		<div class="container">
+			<div class="title">
+				<h2 class="text-center fw-bold">Popular Courses</h2>
+			</div>
+			<div class="row gx-3 mt-5">
+					<div class="col-lg-4 course-item course-item-1">
+						<div class="course-image position-relative">
+							<img src="img/course-pic.jpg" alt="course-1" class="w-100 d-block" />
+							<div class="course-heading">
+								<h2>Web Design</h2>
+							</div>
+						</div>
+						
+						<div class="course-detail mt-5">
+							<p class="fs-6" >Brackets is a different type of editor.
+								Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other
+								editors. Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets
+								have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build
+								Brackets. To learn more about how to use the key features,</p>
+						</div>
+						<div class="course-time">
+							<p class="fw-bold text-danger">Duration: <span class="text-muted">3 Months</span></p>
+							<p class="fw-bold text-danger">Total class: <span class="text-muted">40+</span></p>
+							<p class="fw-bold text-danger">Fee <span class="text-muted">9,990</span></p>
+						</div>
+					</div>
+					<div class="col-lg-4 course-item course-item-2">
+						<div class="course-image position-relative">
+							<img src="img/course-pic.jpg" alt="course-2" class="w-100 d-block" />
+							<div class="course-heading">
+								<h2>Web Development</h2>
+							</div>
+						</div>
+						<div class="course-detail mt-5">
+							<p class="fs-6">Brackets is a different type of editor.
+								Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other
+								editors. Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets
+								have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build
+								Brackets. To learn more about how to use the key features,</p>
+						</div>
+						<div class="course-time">
+							<p class="fw-bold text-danger">Duration: <span class="text-muted">1 Year</span></p>
+							<p class="fw-bold text-danger">Total class: <span class="text-muted">199+</span></p>
+							<p class="fw-bold text-danger">Fee <span class="text-muted">79,990</span></p>
+						</div>
+					</div>
+					<div class="col-lg-4 course-item course-item-3">
+						<div class="course-image position-relative">
+							<img src="img/course-pic.jpg" alt="course-3" class="w-100 d-block" />
+							<div class="course-heading">
+								<h2>S.E.O</h2>
+							</div>
+						</div>
+						<div class="course-detail mt-5">
+							<p class="fs-6">Brackets is a different type of editor.
+								Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other
+								editors. Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets
+								have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build
+								Brackets. To learn more about how to use the key features,</p>
+						</div>
+						<div class="course-time">
+							<p class="fw-bold text-danger">Duration: <span class="text-muted">2 Months</span></p>
+							<p class="fw-bold text-danger">Total class: <span class="text-muted">30+</span></p>
+							<p class="fw-bold text-danger">Fee <span class="text-muted">6,990</span></p>
+						</div>
+					</div>
+			</div>
+			
+			<div class="more-course">
+				<ul>
+					<li><a href="#"><i class="fa-solid fa-angle-left"></i></a></li>
+					<li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
+				</ul>
+			</div>
+			
+			
+		</div>
+	</section>
+	<!-- End Courses Markup --->
+	
+	<!-- Start Details Markup --->
+	<section class="details py-5" id="about">
+		<div class="container">
+			<div class="row text-white">
+				<div class="col-md-5">
+					<div class="service-lists">
+						<ul class="mt-2">
+							<li class=""><i class="fa-solid fa-book"></i> free books for students</li>
+							<li class=""><i class="fa-solid fa-money-check-dollar"></i> affordable fees</li>
+							<li class=""><i class="fa-solid fa-user-graduate"></i> experienced teachers</li>
+							<li class=""><i class="fa-solid fa-book"></i> free books for students</li>
+							<li class=""><i class="fa-solid fa-face-smile"></i> Good Experience for students</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="title">
+						<h2 class="h1 text-center">Why us?</h2>
+						<p class="lh-lg">Brackets is a different type of editor.
+						Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other
+						editors. Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets
+						have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build
+						Brackets. To learn more about how to use the key features</p>
+						<a href="#" class="btn btn-outline-light mt-3 px-3 py-2 fs-5 d-inline-block text-uppercase">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Details Markup --->
+	
+	<!-- Start Galley Markup --->
+	<section class="gallery" id="gallery">
+		<div class="row gx-0">
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img1.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img2.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img3.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img4.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img5.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img6.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img7.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img8.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img9.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img10.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img11.jpg" alt="" />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 position-relative">
+				<div class="gallery-item">
+					<img src="img/gallery-img12.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Galley Markup --->
+	
+	<!-- Start Upcomming Even Markup --->
+	<section class="upcomming-event py-5" id="event">
+		<div class="container">
+			<div class="title">
+				<h2 class="text-center fw-bold">Upcomming Events</h2>
+			</div>
+			<div class="row gx-3 mt-2">
+				<div class="col-lg-6 my-3 event-item">
+					<div class="event-image">
+						<img src="img/carousel-2.jpg" alt="" />
+					</div>
+					<div class="event-content">
+						<h5 class="fw-bold" style="color: #1C3961">Orientation Programme for new Students.</h5>
+						<p class="mt-1 mb-1">Orientation Programme for new sffs Students. Orientation Programme for new sffs Students. Orientation Programme for new sffs Students</p>
+						<ul>
+							<li><i class="fa-solid fa-clock"></i> Dec 30,2018 | 11am</li>
+							<li><i class="fa-solid fa-location"></i> Trishal, Mymensingh</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 my-3 event-item">
+					<div class="event-image">
+						<img src="img/carousel-3.jpg" alt="" />
+					</div>
+					<div class="event-content">
+						<h5 class="fw-bold" style="color: #1C3961">Orientation Programme for new Students.</h5>
+						<p class="mt-1 mb-1">Orientation Programme for new sffs Students. Orientation Programme for new sffs Students. Orientation Programme for new sffs Students</p>
+						<ul>
+							<li><i class="fa-solid fa-clock"></i> Dec 30,2018 | 11am</li>
+							<li><i class="fa-solid fa-location"></i> Trishal, Mymensingh</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Upcomming Even Markup --->
+	
+	<!-- Start Customer Review Markup --->
+	<section class="customer-review py-5" id="client">
+		<div class="container">
+			<div class="title">
+				<h3 class="text-center fw-bold">Get to Know</h3>
+				<h2 class="text-center text-white fw-bold h1">What our customer say</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 customer-item mx-auto p-2">
+					
+					<div class="customer-content text-white text-center border border-1 border-light rounded-3 px-5 py-3">
+						<img src="img/review-big-img.jpg" alt="review-1" />
+						<h4>Hanry mart</h4>
+						<p class="mt-3">Orientation Programme for new sffs Students. Orientation Programme for new sffs Students. Orientation Programme for new sffs StudentsOrientation Programme for new sffs Students. Orientation Programme for new sffs Students. Orientation Programme for new sffs StudentsOrientation Programme for new sffs Students.</p>
+					</div>
+					
+					<div class="review-list">
+						<ul>
+							<li></li>
+							<li class="active"></li>
+							<li></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Customer Review Markup --->
+	
+	<!-- Start Blog Markup --->
+	<section class="blog py-5" id="blog">
+		<div class="container">
+			<div class="title">
+				<h2 class="text-center fw-bold text-uppercase">latest news</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 my-3 blog-item">
+					<div class="blog-image">
+						<img src="img/latest-new-img.jpg" alt="latest-blog" class="w-100 d-block" />
+					</div>
+					<div class="blog-content p-1">
+						<h5 class="fw-bold" style="color: #1C3961">Orientation Programme for new Students.</h5>
+						<ul class="small fw-bold">
+							<li><i class="fa-solid fa-user"></i> By Admin </li>
+							<li><i class="fa-solid fa-clock"></i> Dec 30,2018 | 11am</li>
+						</ul>
+						<p class="small mt-1">Orientation Programme for new sffs Students. Orientation Programme for new sffs Students. Orientation Programme for new sffs Students</p>
+						
+					</div>
+				</div>
+				<div class="col-lg-6 my-3 blog-item">
+					<div class="blog-image">
+						<img src="img/latest-new-img.jpg" alt="latest-blog" class="w-100 d-block" />
+					</div>
+					<div class="blog-content p-1">
+						<h5 class="fw-bold" style="color: #1C3961">Orientation Programme for new Students.</h5>
+						<ul class="small fw-bold">
+							<li><i class="fa-solid fa-user"></i> By Admin </li>
+							<li><i class="fa-solid fa-clock"></i> Dec 30,2018 | 11am</li>
+						</ul>
+						<p class="small mt-1">Orientation Programme for new sffs Students. Orientation Programme for new sffs Students. Orientation Programme for new sffs Students</p>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Blog Markup --->
+	
+	<!-- Start FAQ Markup --->
+	<section class="faq py-5" id="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 my-3">
+					<div class="title">
+						<h2 class="fw-bold text-center">Question</h2>
+					</div>
+					<p class="lead">If you have any question, you can get your questions and If you do not get your questions, you can contact us. We will try to give you your questions.</p>
+					<h3>Any Queries? Ask us a question at: 
+						<h3 class="mt-3 text-end text-success fw-bold"><i class="fa-solid fa-phone"></i> 01618+332933</h3>
+					</h3>
+				</div>
+				<div class="col-lg-6 my-3">
+					<div class="accordion">
+						<div class="accordion-item accordion-item-1">
+							<h2 class="accordion-header">
+								<button class="accordion-button " data-bs-target="#EducationAccordion1" data-bs-toggle="collapse" type="button">
+									Question One
+								</button>
+							</h2>
+							<div class="accordion-collapse collapse show" id="EducationAccordion1">
+								<div class="accordion-body">
+									<p>This is a first question area box one</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item accordion-item-2">
+							<h2 class="accordion-header">
+								<button class="accordion-button" data-bs-target="#EducationAccordion2" data-bs-toggle="collapse" type="button">
+									Question Two
+								</button>
+							</h2>
+							<div class="collapse accordion-collapse" id="EducationAccordion2">
+								<div class="accordion-body">
+									<p>This is a secound question area box one</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item accordion-item-3">
+							<h2 class="accordion-header">
+								<button class="accordion-button" data-bs-target="#EducationAccordion3" data-bs-toggle="collapse" type="button">
+									Question Thire
+								</button>
+							</h2>
+							<div class="collapse accordion-collapse" id="EducationAccordion3">
+								<div class="accordion-body">
+									<p>This is a Third question area box one</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item accordion-item-4">
+							<h2 class="accordion-header">
+								<button class="accordion-button" data-bs-target="#EducationAccordion4" data-bs-toggle="collapse" type="button">
+									Question Four
+								</button>
+							</h2>
+							<div class="collapse accordion-collapse" id="EducationAccordion4">
+								<div class="accordion-body">
+									<p>This is a Forth question area box one</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End FAQ Markup --->
+	
+	<!-- Start Footer Markup --->
+	<section class="footer py-5 position-relative" id="contact">
+		<div class="container">
+			<div class="row footer-main text-white gy-3">
+				<div class="col-md-6 col-lg-3 about footer-title">
+					<h4 class="about-after">About</h4>
+					<p class="small mb-3">Education is a great start for and education. Personnel or oganization to start the online business with 1 click</p>
+					<h4 class="h6 footer-phone"><i class="fa-solid fa-phone"></i> +8801618-332933</h4>
+					<h4 class="h6 footer-email"><i class="fa-solid fa-envelope"></i> shopnil.anik.25@gmail.com</h4>
+					<h4 class="h6 footer-location"><i class="fa-solid fa-location"></i> Jatiya kabi kazi nazrul islam university road, trishal mymensingh</h4>
+				</div>
+				<div class="col-md-6 col-lg-3 link footer-title">
+					<h4 class="about-after">Links</h4>
+					<ul>
+						<li><i class="fa-solid fa-angle-right"></i><a href="#"> Web Design</a></li>
+						<li><i class="fa-solid fa-angle-right"></i><a href="#"> Web Development</a></li>
+						<li><i class="fa-solid fa-angle-right"></i><a href="#"> Grapich Design</a></li>
+						<li><i class="fa-solid fa-angle-right"></i><a href="#"> Digital Markteing</a></li>
+						<li><i class="fa-solid fa-angle-right"></i><a href="#"> S.E.O</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-3 recent footer-title">
+					<h4 class="about-after">Recent Courses</h4>
+					<div class="footer-course pb-2 clearfix">
+						<img src="img/course-pic.jpg" alt="course-1" class="float-end rounded-3" />
+						<a href="#" class="text-white">
+							<h6>UI/UX Design Courses</h6>
+							<span class="text-decoration-line-through">$60</span><span class="text-decoration-none"> $49</span>
+						</a>
+					</div>
+					<div class="footer-course pb-2 my-2 clearfix">
+						<img src="img/course-pic.jpg" alt="course-1" class="float-end rounded-3" />
+						<a href="#" class="text-white">
+							<h6>Web Design</h6>
+							<span class="text-decoration-line-through">$120</span><span class="text-decoration-none"> $99</span>
+						</a>
+					</div>
+					<div class="footer-course pb-2 my-2 clearfix">
+						<img src="img/course-pic.jpg" alt="course-1" class="float-end rounded-3" />
+						<a href="#" class="text-white">
+							<h6>Web Development</h6>
+							<span class="text-decoration-line-through">$240</span><span class="text-decoration-none"> $199</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 contact footer-title">
+					<h4 class="about-after">Quick Contact</h4>
+					<form action="#" method="POST">
+						<input type="text" placeholder="Your Email" class="form-control" />
+						<textarea name="message" id="message" rows="3" class="form-control my-3" placeholder="Write Your Message"></textarea>
+						<input type="submit" class="btn btn-success d-block w-100" value="SEND MESSAGE" />
+					</form>
+				</div>
+			</div>
+			
+			<div class="footer-social position-relative mt-3">
+				<ul>
+					<li><a href="https://www.facebook.com/shopnil.anike" title="Facebook" target="_blank"></a></li>
+					<li><a href="#" title="Twitter" target="_blank"></a></li>
+					<li><a href="#" title="Linkedin" target="_blank"></a></li>
+					<li><a href="#" title="Pinterest" target="_blank"></a></li>
+					<li><a href="#" title="Youtube" target="_blank"></a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-copyright text-white text-center mt-3">
+				<p class="">Copyright 2022 © educationpro.com | Website designed by <a href="https://www.facebook.com/shopnil.anike" title="Visit My Facebook" target="_blank" class="designer fw-bold">Freelancer Anik</a></p>
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Footer Markup --->
+	
+	<!-- Start Scroll Bar Markup --->
+	<div class="scroll-bar">
+		<a href="javascript:void(0);" class="bg-success"><i class="fa-solid fa-circle-up"></i></a>
+	</div>
+	<!-- End Scroll Bar Markup --->
+	
+	
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/fontawesome.min.js"></script>
+	<script type="text/javascript" src="./js/all.min.js"></script>
+	
+</body>
+</html>
